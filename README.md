@@ -1,15 +1,15 @@
 Cách 1:
 imodule https://github.com/VuThanhLong012/stego_tool_h265_metadata/raw/refs/heads/main/stego_tool_h265_metadata.tar
 
-labtainer -r stego_tool_h265_metadata
+labtainer -r stego_compare_h264_h265
 
 Cách 2:
-git clone https://github.com/VuThanhLong012/stego_tool_h265_metadata.git
+git clone https://github.com/VuThanhLong012/stego_compare_h264_h265.git
 
-cd stego_tool_h265_metadata
+cd stego_compare_h264_h265
 
-tar -xvf stego_tool_h265_metadata.tar
+tar -xvf stego_compare_h264_h265.tar.xz
 
 Sao chép thư mục vừa giải nén vào đường dẫn labtainer/trunk/labs
 
-labtainer -r stego_tool_h265_metadata
+labtainer -r stego_compare_h264_h265
